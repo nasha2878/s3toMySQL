@@ -1,0 +1,51 @@
+{
+    "TableCount": "1",
+    "Tables": [
+        {
+            "TableName": "zipcode",
+            "TablePath": "address/zipcode/",
+            "TableOwner": "address",
+            "TableColumns": [
+                {
+                    "ColumnName": "Zip",
+                    "ColumnType": "INT8",
+                    "ColumnNullable": "false",
+                    "ColumnIsPk": "true"
+                },
+                {
+                    "ColumnName": "Place",
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50"
+                },
+                {
+                    "ColumnName": "State",
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50"
+                },
+                {
+                    "ColumnName": "StateAbbr",
+                    "ColumnType": "STRING",
+					"ColumnLength": "2"
+                },
+                {
+                    "ColumnName": "County",
+                    "ColumnType": "STRING",
+                    "ColumnLength": "50"
+                },
+                {
+                    "ColumnName": "Latitude",
+                    "ColumnType": "NUMERIC",
+					"ColumnPrecision": "6",
+					"ColumnScale": "4"
+                },
+                {
+                    "ColumnName": "Longitude",
+					"ColumnType": "NUMERIC",
+                    "ColumnPrecision": "6",
+					"ColumnScale": "4"
+                }
+            ],
+            "TableColumnsTotal": "7"
+        }
+    ]
+}
